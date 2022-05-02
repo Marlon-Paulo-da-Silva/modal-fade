@@ -8,6 +8,8 @@
   right: 0;
   display: grid;
   place-items: center;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal {
@@ -18,4 +20,9 @@
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 0 10px 0 #00000070;
+}
+
+.modal-show{
+  opacity: 1;
+  pointer-events: auto;
 }
